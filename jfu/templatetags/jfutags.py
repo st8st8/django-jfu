@@ -45,4 +45,4 @@ def jfu(
         if not isinstance(context, Context):
             context = Context(context)
 
-return t.render(context)
+    return t.render(context)
